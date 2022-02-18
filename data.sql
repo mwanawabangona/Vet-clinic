@@ -169,4 +169,3 @@ VALUES ('Pokemon');
 -- Digimon
 INSERT INTO species (name)
 VALUES ('Digimon');
-
