@@ -1,5 +1,3 @@
-/*1st Transaction UPDATE & ROLLBACK*/
-
 --Inside a transaction update the animals table by setting the species column to unspecified. Verify that change was made.
 --Then roll back the change and verify that species columns went back to the state before tranasction.
 BEGIN;
@@ -95,4 +93,3 @@ id |    name    | date_of_birth | escape_attempts | neutered | weight_kg | speci
 (9 rows)*/
 --6.Commit transaction
 COMMIT;
---------------------------------------------------------------------------------------------------------
